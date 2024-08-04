@@ -38,13 +38,13 @@ function Header() {
 
 
   return (
-    <header className='py-3 shadow bg-gray-500'>
+    <header className='py-3 shadow bg-blue-700 text-white font-semibold'>
       <Container>
-        <nav className='flex'>
+        <nav className='flex items-center'>
           <div className='mr-4'>
             <Link to='/'>
-              <Logo width='70px'   />
-
+              <Logo width='100px'   />
+                  
               </Link>
           </div>
           <ul className='flex ml-auto'>
