@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo({width = '100px'}) {
   return (
-    <div><img src="public/logo-icon.png" width="90px" alt="Logo" srcset="" /></div>
+    <div><img src="/assets/logo-icon.png" width="90px" alt="Logo" srcset="" /></div>
   )
 }
 
